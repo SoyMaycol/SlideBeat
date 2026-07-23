@@ -1,0 +1,17 @@
+-- pulse.lue — Camera pulse event
+-- Fires a smooth scale-in/scale-out on the camera.
+-- Params: strength (default 1.18), speed (default 0.22)
+
+function onStart(params)
+  local strength = params.strength or 1.18
+  local speed    = params.speed    or 0.22
+  camera.pulse(strength, speed, "easeInOut")
+end
+
+function onUpdate(dt, t)
+  -- pulse is a one-shot, nothing to update
+end
+
+function isDone()
+  return true
+end
