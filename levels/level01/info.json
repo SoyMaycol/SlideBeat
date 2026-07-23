@@ -1,0 +1,10 @@
+{
+  "id": "level01",
+  "title": "Demo Track",
+  "artist": "SlideBeat Team",
+  "mapper": "SoyMaycol",
+  "difficulty": "Normal",
+  "bpm": 128,
+  "previewTime": 4.5,
+  "tags": ["demo", "tutorial"]
+}
